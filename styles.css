@@ -1,0 +1,200 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 20px;
+    height: calc(230vh - 40px);
+    display: flex;
+    flex-direction: row;
+}
+/* left-part starts here */
+.left-part{
+    width: calc(35vw - 20px);
+    height: calc(230.4vh - 42px);
+    background-color: #112D4E;
+    position: relative;
+}
+.my-photo{
+    position: absolute;
+    top: 30px;
+    left: 50px; 
+}
+.my-photo .my-name{
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+.my-photo .occupassion{
+    font-weight: 300;
+    line-height: 40px;
+}
+.my-photo img{
+    border-radius: 50%;
+    width: 18rem;
+    margin: 0 20px;
+}
+.left-hr{
+    height: 1.5px;
+    width: 20vw;
+    position: absolute;
+    top:27rem;
+    left: 5.5rem;
+    border: none;
+    background-color: #F9F7F7 ;
+}
+.contact-info{
+    margin-top: 470px;
+    margin-left: 55px;
+}
+.left-headings{
+    font-size: 1.8rem;
+    margin: 20px 0; 
+    text-align: left;
+    color: #F9F7F7;
+}
+.contact-info ul{
+    font-size: 1.2rem;
+    list-style-type: none;
+    color: #DBE2EF;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact-info ul i{
+    color:#3F72AF;
+    font-size: 1.4rem;
+    width: 2rem; /* to make equal line letters add width untill all the words are in straight margin */
+}
+.contact-info ul a{
+    color: #DBE2EF;
+    text-decoration: none;
+}
+.education{
+    margin-top: 40px;
+    margin-left: 55px;
+    line-height: 1.8rem;
+    color: #DBE2EF;
+    font-size: 1.2rem;
+}
+.education .bsc, .education .hsc, .education .ssc{
+    margin-top: 20px;
+}
+.education .subject{
+    font-weight: 700;
+    color: #3282B8;
+}
+.language{
+    margin-top: 40px;
+    margin-left: 55px;
+    line-height: 1.8rem;
+    color: #DBE2EF;
+    font-size: 1.2rem;
+}
+.left-progress{
+    width: 25vw;
+    border: 3px solid white;
+}
+.left-progress .bar{
+    width: 95%;
+    background-color: #A6B1E1;
+    height: 10px;
+}
+.left-progress .bar1{
+    width: 85%;
+    background-color: #A6B1E1;
+    height: 10px;
+}
+/* left-part ends here */
+/* right-part starts here */
+.right-part{
+    width: calc(65vw - 20px);
+    height: calc(230vh - 42px);
+    background-color: #F9F7F7;
+}
+.right-headings{
+    font-size: 1.8rem;
+    margin: 20px 0; 
+    text-align: left;
+    color: #112D4E;
+    text-transform: uppercase;
+}
+.profile, .projects{
+    width:58vw;
+    text-align:justify;
+    margin-left: 30px;
+    line-height: 1.8rem;
+    color:black;
+    font-size: 1.2rem;
+}
+.projects ul{
+    list-style-type: none;
+}
+.projects ul li{
+    margin: 25px 0;
+}
+.projects ul a{
+    text-decoration: none;
+    color: #3F72AF;
+    font-size: 1.3rem;
+}
+.skills,.interests{
+    width: 58vw;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    color: #3F72AF;
+}
+.hobbies ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+}
+.hobbies ul li i{
+    color:#3F72AF;
+    font-size: 1.5rem;
+    width: 2.5rem;
+}
+.hobbies ul li .hobby{
+    color: black;
+}
+.skill-set{
+    margin: 28px 0;
+}
+.right-progress{
+    width: 58vw;
+    border: 3px solid #112D4E;
+}
+.right-progress .bar2{
+    width: 95%;
+    background-color: #3282B8;
+    height: 30px;
+}
+.right-progress .bar3{
+    width: 80%;
+    background-color: #3282B8;
+    height: 30px;
+}
+.right-progress .bar4{
+    width: 50%;
+    background-color: #3282B8;
+    height: 30px;
+}
+.right-progress .bar5{
+    width: 75%;
+    background-color: #3282B8;
+    height: 30px;
+}
+/* .right-part ends here */
